@@ -11,7 +11,7 @@
 	            {
 	            	printf("buy a new dress");
 		      	}
-				else
+				else 
 				{
 				    printf("shop bandh hai"); 
 		     	}
