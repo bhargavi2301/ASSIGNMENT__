@@ -1,22 +1,19 @@
 #include<stdio.h>
 int main()
+{
 
-	int marks [2][2];
-	
-	int i,j;
-    	for(i=0;i<2;i++)
-	{
-		for(j=0;j<2;j++)
-		{
-		 scanf("%d,&marks [i][j]");
+
+	    int marks[2][2];
+    	for(int i=0;i<2;i++)
+     	{
+	    	for(int j=0;j<2;j++)
+	    	{
+		       printf(" enter marks of [%d]  [%d] & \n", i,j);
+		       scanf ("%d", &marks[i][j]);
+         	} 
+            	printf("\n");
 		}
-	}
-	     for(i=0;i<2;i++)
-	 {
-	     for(j=0;j<2;j++)
-	 	{
-	 	 printf("%d,&marks [i][j]");
-		}
-		   printf("\n");
-		   printf("\n");
-	 }
+	 
+	    
+
+}
