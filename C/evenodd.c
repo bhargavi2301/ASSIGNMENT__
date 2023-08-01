@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
-	int marks;
-	printf("enter your marks");
-	for(marks i=0;i>=10;i++)
-	scanf("\n",i=2%);
+	int number;
+	printf("enter your number");
+	scanf("%d",&number);
+	if(number %2==0)
 	{
-		printf("even number");
+		printf("even number \n");
 	}
 	else
 	{
-		printf("odd number");
+		printf("odd number \n");
 	}
 	
 }
