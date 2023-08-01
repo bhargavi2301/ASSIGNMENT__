@@ -10,22 +10,23 @@ int main()
       {
     	printf("fail");
       }
-	    if(marks>=34 & marks<=50)
+	    else if(marks>=34 & marks<=50)
 	  {
 	   	printf("second class");
 	  }
-	    if(marks>=51 & marks<=70)
+	    else if(marks>=51 & marks<=70)
 	  {
 		printf("first class");
       } 
-        if(marks>=71 & marks<=100)
+        else if(marks>=71 & marks<=100)
       {
     	printf("distiction");
 	  }
    }
    else
    {
-	  }   
+	     
 	    printf("invalid marks");
-   } 
- }
+   }
+   
+}

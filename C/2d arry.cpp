@@ -11,6 +11,7 @@ int main()
 		       printf(" enter marks of [%d]  [%d] & \n", i,j);
 		       scanf ("%d", &marks[i][j]);
          	} 
+         	
             	printf("\n");
 		}
 	 
