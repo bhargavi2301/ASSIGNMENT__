@@ -1,19 +1,17 @@
+
+
+	
 #include<stdio.h>
-int main ()
+
+int main()
 {
-	int i,j;
-	
-	for (int i=1;i<=10;i++)
+	int i,number=0;
+	printf("Enter number \n");
+	scanf("%d",&number);
+	for(i=1;i<=10;i++)
 	{
-		for(j=1;j<=10;j++)
-		{
-			int product=i*j;
-			printf("%d*%d=%d\n",i,j,product);
-		}
-		 printf("\n");
+		printf("%d * %d = %d   \n",number,i,i*number);
 	}
-
 	
 	
-
 }

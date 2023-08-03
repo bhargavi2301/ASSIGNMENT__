@@ -3,14 +3,14 @@ int main()
 {
 	int n, fact=1, i;
 	printf("enter any number");
-	scanf("%d",&i);
-	for(i=1;i<=i;i++)
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)
 	{
-		fact=fact*1;
+		fact=fact*i;
 		
 	}
-	printf("factorial %d is:%d",i ,fact);
+	printf("fact %d is:%d",i ,fact);
 	
 	
 	
-}return 0;
+}

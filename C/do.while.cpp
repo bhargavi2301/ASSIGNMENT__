@@ -1,12 +1,13 @@
 #include<stdio.h>
 int main()
 {
-	int i=1;
+	int i=a;
 	do
 	{
 		printf("%d",i++);
 		
 		
-	} while(i<=100);
+		
+	} while(i<=z);
 	
 }

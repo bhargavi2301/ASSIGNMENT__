@@ -11,11 +11,11 @@
 	            {
 	            	printf("buy a new dress");
 		      	}
-				else
+				else if
 				{
 				    printf("shop bandh hai"); 
 		     	}
-		     	else
+		     	else if
 		    	{  
 				    printf("sunday nai hai");
 		     	}
