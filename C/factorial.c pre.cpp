@@ -2,7 +2,7 @@
 int main()
 {
 	printf("enter any number find a factorial");
-	printf("\nenter any number factorial : %d",fact());
+	printf("\nenter any number factorial : %d",fact);
 	
 }
 {

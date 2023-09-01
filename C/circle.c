@@ -15,5 +15,6 @@ int main()
 	
 	printf("formula is %f\n",formula);
 	
+	
 	return 0;
 }

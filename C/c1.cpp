@@ -9,16 +9,20 @@
 	        { 
 	           if(sunday>0)
 	            {
-	            	printf("buy a new dress");
+	            	printf("buy a new dress\n");
 		      	}
-				else if
+				else 
 				{
-				    printf("shop bandh hai"); 
+				    printf("shop bandh hai\n"); 
 		     	}
-		     	else if
+		     	else 
 		    	{  
-				    printf("sunday nai hai");
+				    printf("salary nai hai\n");
 		     	}
+		     	else
+		     	{
+		     		printf("sunday nai hai\n");
+				 }
 		     	
 			}
     }

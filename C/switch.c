@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int num=25;
+	int num = 24;
 	switch (num) 
 	{
 		case 1:
@@ -22,6 +22,9 @@ int main()
 		case 6:
 			printf("six");
 			break;
+		default:
+		printf("invalid value");
+		break;
 	}
 	return 0;
 }

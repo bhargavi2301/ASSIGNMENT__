@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int n [6]=23,67,1,98,34,70;
+	int n [6]= 23,67,1,98,34,70;
 	int i;
 	for(i=0;i<6;i++)
 	{
@@ -11,7 +11,7 @@ int main()
 	for(i=0;i<6;i++)
 	{
 	
-	printf("\n%d"&i);
+	printf("\n%d"&n);
 	sum=sum+n(i)
     }
     

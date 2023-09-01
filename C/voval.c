@@ -5,14 +5,14 @@ int main()
 	
 	printf("enter character");
 	scanf("%c",&latter);
-	if(latter=="a",latter=="e",latter=="i",latter=="o",latter=="u")
+	if(latter=='a',latter=='e',latter=='i',latter=='o',latter=='u')
 	{
-		printf("is a voval\n");
+		printf("is a voval.\n");
 	}
 	 else 
 	
 	{
-		printf("is not voval\n");
+		printf("is not voval.\n");
 	}
 	
 return 0;
