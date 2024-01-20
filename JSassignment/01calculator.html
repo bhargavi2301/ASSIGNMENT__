@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        .calculator{
+            border: 2px solid rgb(251, 247, 247);
+            background-color: black;
+            align-items: center;
+            color: beige;
+            padding: 20px;
+            width: 40%;
+            font-size: 40px;
+            margin: 0 auto;
+        }
+    </style> 
+</head>
+<body>
+  <div class="calculator">
+   <label name="value"> Enter a value:</label>
+   <input type="" id="first" placeholder="enter a value" value=""><br>
+   <label name="value"> Enter a value:</label>
+   <input type="" id="second"  placeholder="enter a value" value=""><br>
+  <div class="calc">
+     <button onclick="addnumber()">+</button> 
+    <button onclick="substractnumber()">-</button>
+    <button onclick="multiplynumber()">*</button>
+    <button onclick="dividenumber()">/</button>
+  </div>
+  <div>
+    <!-- <span id="display" style="background-color: aliceblue;">result</span> -->
+    <label name="value"> total:</label>
+   <input type="" placeholder="" id="display" value=""><br>
+  </div>
+</div>
+</div>
+<!-- <h1 class="display" style="color: aqua;">hello</h1> -->
+<script>
+
+   function addnumber()
+   {
+       let data1=parseInt(document.getElementById("first").value);
+       console.log(data1);
+       let data2=parseInt(document.getElementById("second").value);
+       console.log(data2);
+       let sum =data1+data2;
+       console.log(sum);
+       document.getElementById("display").value = sum;
+    }
+     function substractnumber()
+    {
+        let data1 = parseInt(document.getElementById("first").value);
+        console.log(data1);
+        let data2 = parseInt(document.getElementById("second").value);
+        console.log(data2);
+        let subs = data1 - data2;
+        console.log(subs);
+        document.getElementById("display").value=subs;
+      
+    }
+     function multiplynumber()
+   {
+        let data1 = parseInt(document.getElementById("first").value);
+        console.log(data1);
+        let data2 = parseInt(document.getElementById("second").value);
+        console.log(data2);
+        let multiple = data1*data2;
+        console.log(multiple);
+        document.getElementById("display").value=multiple;
+   
+   }
+  function dividenumber()
+   {
+        var data1 = parseInt(document.getElementById("first").value);
+        console.log(data1);
+        var data2 = parseInt(document.getElementById("second").value);
+        console.log(data2);
+        var divide = data1/data2;
+        console.log(divide);
+        document.getElementById("display").value=divide;
+   }
+</script>
+        
+    </body>
+</html>

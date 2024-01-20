@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .result {
+            border: 2px solid black;
+            width: 50%;
+            height: 475px;
+            background-color: rgb(67, 63, 63);
+            color: aliceblue;
+        }
+        label{
+            display: inline-block;
+            width: 200px;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="result">
+        <h1>marksheet for information technology</h1>           
+            <label>1. C Language</label>
+        <input id="html1" type="number" max="50"><br><br>
+        <label>2.C++ Language</label>
+        <input id="html2" value="" type="text"><br><br>
+        <label>3.Database</label>
+        <input id="html3" value="" type="text"><br><br>
+        <label>4.HTML</label>
+        <input id="html4" value="" type="text"><br><br>
+        <label>5.CSS</label>
+        <input id="html5" value="" type="text"><br><br>
+        <label>6.php</label>
+        <input id="html6" value="" type="text"><br><br>
+        <label>7.Core java</label>
+        <input id="html7" value="" type="text"><br><br>
+        <button id="click" onclick="clickme()"> Result </button>
+        <div>
+            <h2 id="mark">total marks:</h2>
+            <p id="percentage">percentage is</p>
+        </div>
+    </div>
+</body>
+<script>
+function clickme() {
+    let a =parseInt(document.getElementById('html1').value)
+    let b = parseInt (document.getElementById('html2').value)
+    let c = parseInt(document.getElementById('html3').value)
+    let d =parseInt (document.getElementById('html4').value)
+    let e =parseInt (document.getElementById('html5').value)
+    let f =parseInt(document.getElementById('html6').value)
+    let g =parseInt(document.getElementById('html7').value)
+    let total =parseInt( a + b + c + d + e + f + g);
+    console.log(total);
+    
+       document.getElementById("mark").innerHTML=total
+
+       document.getElementById('percentage').innerHTML=(total/350*100)
+
+       if(a,b,c,d,e,f,g>50)
+            alert('not walid marks');
+        
+       }
+</script>
+
+</html>
