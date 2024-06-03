@@ -1,0 +1,103 @@
+q.1) what is javascript?
+ans. javascript is single threded language.
+      JavaScript is a high-level programming language 
+     object-oriented programming language
+     used by developers to make web pages
+     functionality add kr sakte hai
+     use: pop menu ,clickble button.
+
+2) How many type of Variable in JavaScript?
+   three types of Variable in javascript.
+   1.let
+   2.Var
+   3.const 
+
+3)Define a Data Types in js?
+ 2 types of Data Types
+      1. Premitive Data Type <br>
+            Number
+            Null 
+            String
+            Symbol
+            boolean
+            big int
+            undefined
+     2.non premitive data Type<br>
+            array
+            object 
+
+4) Write a mul Function Which will Work Properly When invoked With Following Syntax.
+
+5)Q.5 What the deference between undefined and undeclare in JavaScript?
+ ans.undeclared means varibale me declared nhi kiya
+     undefined means value assign nhi ki
+
+6) Using console.log() print out the following statement: The quote 'There is no exercise 
+ans.
+ let a = "there is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to
+help one another.";
+console.log(a);
+ 
+7) Check if typeof '10' is exactly equal to 10. If not make it exactly equal?
+ ans. let a = 10;
+ console.log(typeof(a));
+
+8) Write a JavaScript Program to find the area of a triangle? 
+file
+9) Write a JavaScript program to calculate days left until next Christmas? 
+baki
+10) What is Condition Statement? 
+ans.conditional statement allowes to execute code blocks and Check Condition true or false .
+
+11)Find circumference of Rectangle formula : C = 4 * a ? 
+  let a = 10;
+  let b = 4*a
+  console.log(b);
+   
+12) WAP to convert years into days and days into years? </h2>
+ baki
+13) Convert temperature Fahrenheit to Celsius? (Conditional logic Question) 
+ file
+14)Write a JavaScript exercise to get the extension of a filename.? 
+ ans. baki
+15)What is the result of the expression (5 > 3 && 2 < 4)? 
+ans.Both Condition Are True
+16) What is the result of the expression (true && 1 && "hello")? 
+
+17) What is the result of the expression true && false || false && true? 
+
+18)What is a Loop and Switch Case in JavaScript define that ? 
+ Switch case :The value of the expression is then compared with the values of each case in the
+ structure.
+ loop case:if you want to run the same code over and over again, each time with a different value.
+
+19) What is the use of is Nan function? 
+In JavaScript NaN is short for "Not-a-Number". The isNaN() method returns true if a value is NaN.
+
+20) What is the difference between && and || in JavaScript? 
+
+21)Q.21 What is the use of Void (0)? 
+void 0 means returning undefined (void) as a primitive value.
+Q.22 Check Number Is Positive or Negative in JavaScript? 
+file
+Q.23 Find the Character Is Vowel or Not ? 
+file
+Q.24 Write to check whether a number is negative, positive or zero? 
+file
+Q.25 Write to find number is even or odd using ternary operator in JS? 
+file.
+Q.26 Write find maximum number among 3 numbers using ternary operator in JS?
+file
+Q.27 Write to find minimum number among 3 numbers using ternary operator in JS? 
+file
+Q.28 Write to find the largest of three numbers in JS? 
+ file
+Q.29 Write to show
+i. Monday to Sunday using switch case in JS?
+
+         
+
+
+
+
+

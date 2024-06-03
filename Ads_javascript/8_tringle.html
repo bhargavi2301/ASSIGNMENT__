@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Enter a value: <input type="number" id="base" value=""><br>
+        Enter a value: <input type="number" id="height" value=""><br>
+        <button onclick="changeme()">clickme</button>
+        Total:<input type="number" id="total">
+        <script>
+            function changeme() {
+                var a = document.getElementById("base").value;
+                var b = document.getElementById("height").value;
+                var c = a * b / 2;
+                document.getElementById("total").value = c;
+            }
+        </script>
+</body>
+</html>

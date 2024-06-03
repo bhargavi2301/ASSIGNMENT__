@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Enter a Temperature: <input type="number" id="temp" value=""><br><br>
+        <button onclick="clickme()">clickme</button><br><br>
+    <h1 id="showme"></h1>
+    <script>
+        function clickme() {
+            var f = document.getElementById("temp").value;
+            C = (f - 32) * 5 / 9;
+            document.getElementById("showme").innerHTML = C;
+
+        }
+    </script>
+</body>
+</html>
