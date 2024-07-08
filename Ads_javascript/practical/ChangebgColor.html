@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Change Background Example</title>
+<style>
+    body {
+        text-align: center;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        padding: 20px;
+        /* height:  120px;
+        width: 50%; */
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>Change Background Color</h1>
+        <button onclick="changeBackground()">Change Background</button>
+    </div> 
+
+    <script>
+        function changeBackground() {
+        
+            var randomColor = '#' + Math.floor(Math.random()*11111).toString(16);
+            document.body.style.backgroundColor = randomColor; 
+        }
+    </script>
+</body>
+</html>

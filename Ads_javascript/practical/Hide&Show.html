@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Hide and Show</title>
+    <style>
+        .mydiv {
+            width: 30%;
+            height: 170px;
+            border: 1px solid black;
+            background-color: blue;
+            padding: 10px;
+        }
+
+        input {
+            margin-top: 20px;
+            margin-left: 20px;
+            height: 20px;
+            width: 50%;
+        }
+        button{
+            width: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mydiv">
+        <input type="password" id="myid">
+        <button onclick="hideShow()">click me</button>
+    </div>
+
+    <script>
+        function hideShow() {
+            var passwordInput = document.getElementById('myid');
+            if (myid.type === 'password') {
+                myid.type = 'text';
+            } else {
+                myid.type = 'password';
+            }
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Random Quote Generator</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    .container {
+        padding: 20px;
+    }
+    .quote {
+        font-size: 25px;
+        margin-bottom: 20px;
+        font-family: cursive;
+
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: blueviolet;
+        border-radius: 5px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">Random Quote Generator</h2>
+        <div class="quote" id="quoteDisplay"></div>
+        <button onclick="generateQuote()" class="mybtn">Generate Quote</button>
+    </div>
+
+    <script>
+       
+        var quotes = [
+            "The only way to do great work is to love what you do. - Steve Jobs",
+            "Be your own kind of beautiful",
+            "Innovation distinguishes between a leader and a follower. - Steve Jobs",
+            "Self-love is the key to a joyful life.",
+            "Stay hungry, stay foolish. - Steve Jobs",
+           "A problem is a chance for you to do your best.",
+            "Life is what happens when you're busy making other plans. - John Lennon",
+            "The only limit to our realization of tomorrow will be our doubts of today. - Franklin D. Roosevelt",
+            "It does not matter how slowly you go as long as you do not stop. - Confucius"
+        ];
+
+        function generateQuote() {
+            var randomNumber = Math.floor(Math.random() * quotes.length);
+            document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+        }
+    </script>
+</body>
+</html>
