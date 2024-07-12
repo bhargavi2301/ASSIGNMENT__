@@ -6,7 +6,8 @@ export default function InputList() {
 
     const handleClick = () => {
         setResult([...result, name]);
-        setName(""); // Clear the input field after adding the name
+        setName(""); 
+        
     };
 
     return (
@@ -15,9 +16,8 @@ export default function InputList() {
             <button onClick={handleClick} className='btn1'>Add</button>
 
             <ul>
-                {/* Map over the result array to render each name */}
                 {result.map((e, i) => (
-                    <li key={i}>{e}</li>
+                    <li className='myli' key={i}>{e}</li>
                 ))}
             </ul>
         </div>
